@@ -25,7 +25,7 @@ class ViewRevendaCarros():
                                   [sg.Listbox(values=self.revenda.lista_nomes, size=(20, 12), key="LISTCARS",
                                               enable_events=True)],
                                   [sg.Button('Consultar'), sg.Button('Exit')]]
-        return sg.Window('Theme Browser', layout_janela_produtos, location = (800,600), finalize=True)
+        return sg.Window('Janela Catalogo', layout_janela_produtos, location = (800,600), finalize=True)
 
 
 #permite ver os dados de algum veiculo especifico, e se necessario, altera-los
